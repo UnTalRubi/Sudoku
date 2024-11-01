@@ -30,10 +30,10 @@ if __name__ == '__main__':
     import sys
     sys.path.append('..')
 
-    import casosTest.casos_test_sudoku as casosTest
+    import casosTest.casos_test_sudoku as casos_test
 
-    for attr in sorted(casosTest.__dict__):
+    for attr in sorted(casos_test.__dict__):
         if attr.startswith('__'):
             pass
         else:
-            print(attr, " => ", check_columnas(casosTest.__dict__[attr]))
+            print(attr, " => ", check_columnas(casos_test.__dict__[attr]))
