@@ -35,5 +35,3 @@ irregular_fila =    [[1, 2, 3],
 irregular_columna = [[1, 2, 3],
                     [2, 3, 1],
                     [3, 1]]
-
-lista_vacia = [[]]
