@@ -1,6 +1,6 @@
 def check_columnas(sudoku):
 
-    #barricada
+    # Precondición
     assert isinstance(sudoku, list), "El sudoku tiene que ser una lista"
 
     numero_filas = len(sudoku)

@@ -2,7 +2,7 @@ print("Esto es la pre-funcion check_cuadrado")
 
 def check_cuadrado(sudoku):
 
-    #barricada
+    # Precondición
     assert isinstance(sudoku, list), "El sudoku tiene que ser una lista"
 
     sudokuSano = True

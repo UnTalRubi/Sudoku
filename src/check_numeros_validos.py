@@ -17,12 +17,9 @@ def numeros_en_rango(sudoku):
 
 def check_numeros_validos(sudoku):
 
-    #barricada
+    # Precondición
 
     return numeros_enteros(sudoku) and numeros_en_rango(sudoku)
-
-
-### CASOS TEST ###
 
 if __name__ == '__main__':
 

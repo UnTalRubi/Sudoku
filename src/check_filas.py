@@ -1,6 +1,6 @@
 def check_filas(sudoku):
 
-    #barricada
+    # Precondición
     assert isinstance(sudoku, list), "El sudoku tiene que ser una lista"
 
     for fila in sudoku:
