@@ -2,7 +2,6 @@ print("Esto es la pre-funcion check_cuadrado")
 
 def check_cuadrado(sudoku):
 
-    # Precondición
     assert isinstance(sudoku, list), "El sudoku tiene que ser una lista"
 
     sudokuSano = True
@@ -13,12 +12,9 @@ def check_cuadrado(sudoku):
             sudokuSano = False
             break
 
-    # Postcondicion
     assert isinstance(sudokuSano, bool), "El sudoku tiene que devolver un valor lógico"
 
     return sudokuSano
-
-print("Esto es la post-funcion de check_cuadrado")
 
 if __name__ == '__main__':
 
